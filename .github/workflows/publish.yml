@@ -30,7 +30,7 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: yarn install --frozen-lockfile
-      - run: cd packages/react-notion-x && yarn publish
+      - run: cd packages/react-notion-x && yarn install && yarn run build && yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
