@@ -1,12 +1,11 @@
 {
-  "name": "notion",
-  "private": true,
+  "name": "@dhruvshah1214/notion-packages",
   "description": "Fast and accurate React renderer for Notion. TS batteries included.",
-  "repository": "NotionX/react-notion-x",
+  "repository": "dhruvshah1214/react-notion-x",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
   "license": "MIT",
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "workspaces": [
     "packages/*",
